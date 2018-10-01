@@ -1,0 +1,16 @@
+body{
+
+	background-color: #696969;
+} 
+#tb1{ 
+
+	color: #cd5c5c; 
+	font-weight: bold; 
+	font-size: 35px;
+} 
+#tb2 {
+	color: #ff00ff;
+} 
+td{
+	width: 1000px;
+}
