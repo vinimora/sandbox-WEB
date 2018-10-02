@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>LightBOX</title>
+	<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="cssLightBox/cssLightBox.css">
+<script type="text/javascript" src="C:\Users\Osvaldo\Documents\viniciusREPO\sandbox-WEB\HTML 5\Jquery/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+       	$('.LightBOX').click(function(){
+             $('.background, .box').animate({'opacity':'60'}, 500,'linear');
+           		  $('.box').animate({'opacity':'1.00'},500,'linear');
+             		$('.background, .box').css('display',' block');
+       	});
+$('.close').click(function(){
+	$('.background,.box').animate({'opacity':'0'},500,'linear');
+		$('.background, .box').css('display','none');
+		});
+	});
+
+
+	
+
+
+
+</script>
+
+</head>
+<body>
+<h2>comteúdo da Página</h2>
+<a href="#" class="LightBOX">Abrir Lightbox</a>
+
+<div class="background"></div> 
+<div class="box"><div class="close">x</div> Este é o LightBox.</div>
+	
+</body>
+</html>
