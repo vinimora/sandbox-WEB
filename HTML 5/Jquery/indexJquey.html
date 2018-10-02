@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<title>Jquery</title>
+<link rel="stylesheet" type="text/css" href="cssJquery/jquerycss.css">
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="jquery.cycle.all.js"></script>
+<script type="text/javascript">
+	$(function () {
+		$("#slides ul").cycle({
+			fx: 'fade', 
+			speed: 2000, 
+			timeout: 4000,
+          
+		})
+
+	})
+
+</script>	
+</head>
+<body>
+<div id="slides">
+	<ul>
+		<li><img src="imagensJquery/foto1.jpg"/></li>
+		<li><img src="imagensJquery/espaço.jpg"/></li>			
+		<li><img src="imagensJquery/foto2.jpg"/></li>
+		<li><img src="imagensJquery/foto3.jpg"/></li>
+		<li><img src="imagensJquery/seyja.jpg"/></li>
+		
+
+	</ul>
+
+</div>
+</body>
+</html>
